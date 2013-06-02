@@ -38,7 +38,7 @@ group :test do
 end
 
 group :cucumber do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require => false
   gem 'webrat'
   gem 'watir'
   gem 'database_cleaner'
